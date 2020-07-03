@@ -1,0 +1,53 @@
+.Formgroup{
+    .Formgroup_Item{
+        margin-bottom: 32px;
+        .Formgroup_Item_Button{
+            button{
+                width: 100%;
+                background-color: $BlueEco;
+                color: #fff;
+                border: none;
+                padding: 16px;
+                border-radius: 4px;
+                cursor: pointer;
+                font-weight: 700;
+                font-size: 12px;
+                text-transform: uppercase;
+                -webkit-transition: 0.2s ease-in;
+                -moz-transition: 0.2s ease-in;
+                -o-transition: 0.2s ease-in;
+                transition: 0.2s ease-in;
+                outline: none;
+                &:hover{
+                    background-color: $BlueDarkEco;
+                }
+            }
+        }
+        .Formgroup_Item_Label{
+            color: $GrayDarkEco;
+            font-size: 12px;
+            line-height: 16px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        .Formgroup_Item_Input{
+            input{
+                background-color: #ececec;
+                border: none;
+                width: calc(100% - 32px);
+                padding: 16px;
+                border-radius: 4px;
+                outline: none;
+                margin-top: 8px;
+                border: 2px solid #5fabe900;
+                -webkit-transition: 0.2s ease-in;
+                -moz-transition: 0.2s ease-in;
+                -o-transition: 0.2s ease-in;
+                transition: 0.2s ease-in;
+                &:focus{
+                    border: 2px solid $BlueEco;
+                }
+            }
+        } 
+    }
+}
